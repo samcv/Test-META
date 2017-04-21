@@ -1,32 +1,35 @@
 {
-   "tags" : [
-      "devel",
-      "meta",
-      "utils",
-      "testing"
-   ],
-   "provides" : {
-      "Test::META" : "lib/Test/META.pm"
-   },
-   "test-depends" : [
-      "Test"
-   ],
-   "support" : {
-      "source" : "git://github.com/jonathanstowe/Test-META.git"
-   },
-   "perl" : "6.c",
-   "build-depends" : [],
-   "auth" : "github:jonathanstowe",
-   "source-url" : "git://github.com/jonathanstowe/Test-META.git",
-   "depends" : [
-      "Test",
-      "META6"
-   ],
-   "name" : "Test::META",
-   "authors" : [
-      "Jonathan Stowe <jns+git@gellyfish.co.uk>"
-   ],
-   "version" : "0.0.8",
-   "license" : "Artistic",
-   "description" : "Test a distributions META file"
+  "name": "Test::META",
+  "support": {
+    "source": "https://github.com/samcv/Test-META",
+    "bugtracker": "https://github.com/samcv/Test-META/issues"
+  },
+  "perl": "6.c",
+  "source-url": "git://github.com/samcv/Test-META.git",
+  "build-depends": [
+    
+  ],
+  "auth": "github:samcv",
+  "depends": [
+    "Test",
+    "META6"
+  ],
+  "tags": [
+    "devel",
+    "meta",
+    "utils",
+    "testing"
+  ],
+  "provides": {
+    "Test::META": "lib/Test/META.pm"
+  },
+  "test-depends": [
+    "Test"
+  ],
+  "license": "Artistic-2.0",
+  "version": "0.0.8",
+  "authors": [
+    "Jonathan Stowe <jns+git@gellyfish.co.uk>"
+  ],
+  "description": "Test a distributions META file"
 }
